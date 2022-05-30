@@ -17,17 +17,17 @@ public class Main {
             System.out.print(" " +i);
         }
         System.out.println();
-        }
+    }
 
-        public static void task2(){
+    public static void task2(){
 
         int friday = 6;
-       while ( friday <= 31 ){
-                        System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет.");
+        while ( friday <= 31 ){
+            System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет.");
             friday = friday + 7;
         }
-            for (friday = 6; friday <= 31; friday = friday +7) {
-                System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет. !!!!");
+        for (friday = 6; friday <= 31; friday = friday +7) {
+            System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет. !!!!");
         }
 
     }
@@ -36,9 +36,9 @@ public class Main {
         int periodUpTo = 200;
         int periodAfter = 100;
 
-               for (int year = 0; year <= 2022 + periodAfter; year = year + 79){
+        for (int year = 0; year <= 2022 + periodAfter; year = year + 79){
             if (year >= 2022 - periodUpTo)
-            System.out.println( + year);
+                System.out.println( + year);
         }
 
     }
